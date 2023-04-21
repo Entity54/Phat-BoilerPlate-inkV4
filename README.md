@@ -22,6 +22,42 @@ STAKES 0.01
 <br>
 <br>
 
+<br>
+<br>
+<br>
+
+![plot](./Printscreens/ClosedBeta-UI-1.png)
+
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+
+![plot](./Printscreens/ClosedBeta-UI-2.png)
+
+<br>
+<br>
+<br>
+
+# PROBLEM
+
+The deployed Phat contract has a balance of 6 PHA
+
+When the user calls give_me to withdraw for example 1 PHA the balance is deducted from Phat contract but
+
+a) never emmits the relevant event on the explorer
+
+b) user's account is not credited
+
+c) phat contract balance updates to the decreased value as expected
+
+<br>
+<br>
+<br>
+
 # Hello World in Phat Contract
 
 <img align="right" width="320" src="res/Phat%20Contract_Standard%20Logo_wht_02.svg">
